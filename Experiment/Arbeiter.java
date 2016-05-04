@@ -1,9 +1,9 @@
 
-import java.util.ArrayList;
+import java.util.TreeSet;
 
 public class Arbeiter
 {
-	private ArrayList Person;
+	private TreeSet Person;
 	
 	public Arbeiter ()
 	{

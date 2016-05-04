@@ -1,6 +1,7 @@
 public class Person;
 {
-	private String name;
+	private String 	name;
+	private int 	alter;
 	
 	public Person ()
 	{
@@ -14,5 +15,15 @@ public class Person;
 	public void setName (String name)
 	{
 		this.name = name;		
+	}
+	
+	public int getAlter ()
+	{
+		return this.alter;
+	}
+	
+	public void setAlter (int alter)
+	{
+		this.alter = alter;
 	}
 }
