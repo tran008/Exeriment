@@ -1,9 +1,9 @@
 
-import java.util.TreeSet;
+import java.util.HashMap;
 
 public class Arbeiter
 {
-	private TreeSet Person;
+	private HashMap Person;
 	
 	public Arbeiter ()
 	{
